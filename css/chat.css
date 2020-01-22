@@ -104,9 +104,6 @@
   width: 80%;
 }
 
-.chat__write-column input {
-}
-
 .chat-screen .chat__messages {
   border-top: 1px solid #f7f7f7;
   display: flex;
@@ -185,13 +182,13 @@
 
 .incoming-message .message__bubble {
   border-top-left-radius: 0px;
-  background-image: linear-gradient(to right, #7b4397, #dc2430);
+  background-image: linear-gradient(to right, #e55d87, #5fc3e4);
   color: white;
 }
 
 .sent-message .message__bubble {
   border-top-right-radius: 0px;
-  background-image: linear-gradient(to left, #00c6ff, #0072ff);
+  background-image: linear-gradient(to left, #dd5e89, #f7bb97);
   color: white;
 }
 
