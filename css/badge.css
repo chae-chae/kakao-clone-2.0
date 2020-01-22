@@ -1,0 +1,15 @@
+@keyframes sparkle {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+.nav .nav__badge {
+  animation: sparkle 2s ease-in-out infinite;
+}
